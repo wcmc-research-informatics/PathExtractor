@@ -1,0 +1,6 @@
+pathologic(al)?.{1,3}stag(e|ing).{0,3}(summary)?:?
+pathologic(al)?.{1,3}tumor.{1,3}stage:?
+(pathologic(al)?.{1,3}stag(e|ing).{0,3}\(p?TNM\):?)(.*?)(margins:?)\b
+primary.{1,3}tumor.{0,3}(\(p?T\))?:?\s*(c|y|r|a|u)?p?T(x|is|0|1(mic|a|b|c)?|2(a|b|c)?|3(a|b)?|4(a|b|c|d)?)
+lymph.{1,3}nodes.{0,3}(\(p?N\))?:?\s*(c|y|r|a|u)?p?N(x|0|1(a|b)?|2(a|b|c)?|3(a|b|c)?)
+distant.{1,3}metastas(e|i)s.{0,3}(\(p?M\))?:?\s*(c|y|r|a|u)?p?M(x|0|1(a|b|c)?)
