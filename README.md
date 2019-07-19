@@ -1,7 +1,7 @@
 ## PathExtractor - Natural language processing system to extract key measurements from surgical pathology reports
 
 
-PathExtractor Pipeline is designed to find TNM Stages, Gleason score and ICD-9/ICD-10 codes from surgical pathology reports.
+PathExtractor pipeline is designed to find TNM Stages, Gleason score and ICD-9/ICD-10 codes from surgical pathology reports.
 
 PathExtractor is based on Leo architecture extending UIMA AS.  For more info on Leo see [ http://department-of-veterans-affairs.github.io/Leo/userguide.html ]. Specifically, PathExtractor is modeled after the Leo instance EFEx that was developed by the VA researchers to extract left ventricular ejection fraction (LVEF) measurements from Echocardiograms. 
 
